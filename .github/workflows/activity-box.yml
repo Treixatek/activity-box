@@ -10,9 +10,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v1
-      - uses: Treixatek/activity-box@master
+      - uses: ashtonland/activity-box@master
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GH_USERNAME: Treixatek
+          GH_USERNAME: ashtonland
           GIST_ID: 55f309e6e2a86223ac85d9e62646a9ec
